@@ -1,20 +1,7 @@
 # $language = "VBScript"
 # $interface = "1.0"
 ' Author: Angel Serrano
-' aserrano@trextel.com
-'© 2017_08_8 Trextel & Angel Serrano
-' All rights reserved 
-' todo make first row the variables int then send commands functions so the variables can be built dinamically 
 
-'created per device log file. Completed
-' prompts for how many loops
-
-
-'To do 
-'scritp to run as an input
-' separate commands sent in a diff file. Completed
-'add batch number as input 
-'condenced code
 
 'scripts = Array("send.vbs","send2.vbs")
 'Include scripts(0)
