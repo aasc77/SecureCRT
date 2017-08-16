@@ -6,6 +6,7 @@ crt.Screen.Synchronous = 	false
 crt.Screen.Synchronous =	True
   
   ''''''change below only
+  
 crt.Screen.Send ("term length 0"& vbCR )		
 crt.Screen.Send ("sh run"& vbCR )  
 crt.Screen.Send ("exit"& vbCR )  
