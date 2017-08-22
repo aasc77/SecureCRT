@@ -36,7 +36,7 @@ crt.Screen.Send ("int Fa0/"&n&vbCR )
 crt.Screen.Send ("shut"& vbCR )
 END IF
 IF result = 0 THEN
-stroutput = "One or ports were in use, not shut"
+stroutput = "One or ports were in use and not shut"
 END IF
 	
 END SELECT 
