@@ -28,7 +28,7 @@ crt.Screen.Send ("config t" & vbCR )
 
 crt.Screen.Send ("ip dhcp excluded-address "& csv(4) & vbCR )'csv(4)= Default Router IP
 
-crt.Screen.Send ("no interface GigabitEthernet0/0.70" & vbCR )
+
 
 crt.Screen.Send ("ip dhcp pool 1"& vbCR )
 crt.Screen.Send ("network " & csv(3) & " 255.255.255.252" & vbCR )'csv(3)= network IP
